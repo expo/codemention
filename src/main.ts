@@ -7,7 +7,7 @@ import {FilesChangedReaderImpl} from './files-changed-reader'
 import Runner from './runner'
 
 /**
- * Test comment
+ * Test comment 2
  */
 export async function run(): Promise<void> {
   try {
