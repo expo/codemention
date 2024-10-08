@@ -6,6 +6,9 @@ import {ConfigurationReaderImpl} from './configuration-reader'
 import {FilesChangedReaderImpl} from './files-changed-reader'
 import Runner from './runner'
 
+/**
+ * Test comment
+ */
 export async function run(): Promise<void> {
   try {
     const githubToken = core.getInput('githubToken')
