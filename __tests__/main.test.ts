@@ -65,7 +65,7 @@ describe('run', () => {
   })
 
   describe('when an error is thrown', () => {
-    it('sets the action status to failed', async () => {
+    it('sets the action st atus to failed', async () => {
       jest.mocked(core).getInput.mockImplementation(input => {
         throw new Error('getInput error')
       })
